@@ -1,0 +1,28 @@
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid;
+    margin: auto;
+    }
+    .a {
+    font-style: oblique;
+    font-weight: bold;
+    }
+    .b{
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    }
+    th, td{
+    padding: 5px;
+    }
+    .u{
+    alt: "девочка";
+    height: 600px;
+    width: 550;
+    }
+    .t{
+    alt: "котик";
+    height: 400px;
+    width: 350px;
+    }

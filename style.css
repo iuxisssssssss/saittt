@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+nav, footer, .form, form, .crn, .f, .z{
+    display: flex;
+}
+
+.form, .f{
+    align-items: center;
+}
+
+nav, footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, footer {
+    margin: 25px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+form, .form {
+    flex-direction: column;
+}
+
+form {
+    max-width: 350px;
+    background-color: rgba(252, 235, 162, 0.753);
+    padding: 10px;
+}
+
+input, .bt, .bt:hover{
+    border: none;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 310px;
+    height: 25px;
+}
+
+.bt {
+    width: 330px;
+    height: 45px;
+    background-color: rgba(255, 227, 103, 0.884);
+}
+
+.bt:hover {
+    width: 330px;
+    height: 45px;
+    background-color: rgba(255, 219, 58, 0.884);
+}
+
+.ln {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+p {
+    padding: 10px;
+}
+
+select {
+    width: 219px;
+    height: 40px;
+    padding: 10px;
+}
+
+.crn {
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.f{ 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.z{
+background-color: rgba(252, 235, 162, 0.548);
+padding: 10px;
+margin: 30px;
+flex-direction: column;
+}
+
+.btn{
+    height: 45px;
+    background-color: rgba(255, 227, 103, 0.884)
+}
+
+.btn:hover{
+    height: 45px;
+    background-color: rgba(255, 219, 58, 0.884);
+}
+
